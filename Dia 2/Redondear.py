@@ -1,0 +1,5 @@
+name = input("¿Cual es tu nombre? ")
+ventas = int(input("¿Cuanto vendiste este mes? "))
+comision = float(input("¿Cual es tu porcentaje de comision? "))
+ganancia = round(ventas * comision / 100, 2)
+print(f"Ok {name}. Este mes ganaste {ganancia}")
