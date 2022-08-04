@@ -2,10 +2,10 @@ from random import *
 
 #lista inicial
 
-palitos = ['-','--','---','----']
+"""palitos = ['-','--','---','----']
 
 #mezclar palitos
-'''def mezcla(lista):
+def mezcla(lista):
     shuffle(lista)
     return lista
 
@@ -29,4 +29,41 @@ def chequear(lista,intento):
 #De esta manera se mezcla las funciones
 palitos_mezclados = mezcla(palitos)
 seleccion = probar()
-chequear(palitos_mezclados,seleccion)'''
+chequear(palitos_mezclados,seleccion)"""
+
+
+"""def lanzar_dados():
+    lanzar = randint(1,7)
+    lanzar2 = randint(1,7)
+    return lanzar, lanzar2
+
+sumar = 0
+def evaluar_jugada(lanzar, lanzar2):
+    sumar = lanzar + lanzar2
+    return sumar
+
+print(evaluar_jugada)
+evaluar_jugada(lanzar_dados())"""
+#Ejercicio 1
+import random
+
+"""suma = 0
+def lanzar_dados():
+    dado1 = random.randint(1, 6)
+    dado2 = random.randint(1, 6)
+    suma = dado1 + dado2
+    return suma
+
+def evaluar_jugada(suma):
+
+    if suma <= 6:
+        return f"La suma de tus dados es {suma}. Lamentable"
+    elif suma > 6 and suma < 10:
+        return f"La suma de tus dados es {suma}. Tienes buenas chances"
+    else:
+        return f"La suma de tus dados es {suma}. Parece una jugada ganadora"
+
+resultado = evaluar_jugada(lanzar_dados())
+print(resultado)"""
+
+
