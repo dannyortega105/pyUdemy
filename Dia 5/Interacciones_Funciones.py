@@ -66,4 +66,41 @@ def evaluar_jugada(suma):
 resultado = evaluar_jugada(lanzar_dados())
 print(resultado)"""
 
+#Ejercico 2
+"""lista_numeros = [1,2,15,7,2]
+
+def reducir_lista(lista):
+    lista = list(set(lista))
+    lista.sort()
+    lista.pop(-1)
+    return lista
+
+def promedio(lista):
+    valor_medio = sum(lista) / len(lista)
+    return valor_medio"""
+
+#Ejercicio 3
+
+moneda = ['Cara', 'Cruz']
+lista_numeros = [1,5,6]
+
+def lanzar_moneda():
+    lance = choice(moneda)
+    return lance
+
+def probar_suerte(lance,lista):
+    if lance == 'Cara':
+        print("La lista se autodestruira")
+        return []
+    else:
+        print("La lista fue salvada")
+        return lista
+    
+print(probar_suerte(lanzar_moneda(),lista_numeros))
+
+
+
+
+
+
 
