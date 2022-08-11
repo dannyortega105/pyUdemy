@@ -2,7 +2,7 @@ from random import *
 
 #lista inicial
 
-"""palitos = ['-','--','---','----']
+palitos = ['-','--','---','----']
 
 #mezclar palitos
 def mezcla(lista):
@@ -29,7 +29,7 @@ def chequear(lista,intento):
 #De esta manera se mezcla las funciones
 palitos_mezclados = mezcla(palitos)
 seleccion = probar()
-chequear(palitos_mezclados,seleccion)"""
+chequear(palitos_mezclados,seleccion)
 
 
 """def lanzar_dados():
@@ -79,7 +79,7 @@ def promedio(lista):
     valor_medio = sum(lista) / len(lista)
     return valor_medio"""
 
-#Ejercicio 3
+"""#Ejercicio 3
 
 moneda = ['Cara', 'Cruz']
 lista_numeros = [1,5,6]
@@ -96,7 +96,7 @@ def probar_suerte(lance,lista):
         print("La lista fue salvada")
         return lista
     
-print(probar_suerte(lanzar_moneda(),lista_numeros))
+print(probar_suerte(lanzar_moneda(),lista_numeros))"""
 
 
 

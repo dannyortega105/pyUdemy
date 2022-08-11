@@ -6,7 +6,7 @@ numero = 0
 
 print("BIENVENIDO AL JUEGO 'ADIVINA EL NUMERO' \n")
 name = input("Escribe tu nombre: ")
-print(f"{name}, pense un numero entre 1 y 100, debes adivinar cual es)\n")
+print(f"{name}, pense un numero entre 1 y 100, debes adivinar cual es\n")
 
 while intentos >0:
     numero = int(input("Cual crees que es el numero? "))
